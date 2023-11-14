@@ -1,0 +1,26 @@
+.carousel .carousel-item {
+
+    height: 300px;
+  }
+
+.carousel-item img {
+
+    object-fit: cover;
+    min-height: 300px;
+    margin: auto;
+}
+
+.card img {
+    height: 150px;
+    object-fit:cover;
+}
+
+article {
+    padding: 1rem;
+    margin:1rem;
+    border-radius: 1rem;
+    width: 20rem;
+}
+.card {
+    background-color: rgba(255,175,175,.2);
+}
