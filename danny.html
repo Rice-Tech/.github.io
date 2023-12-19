@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      background: linear-gradient(red, white);
+      background-repeat: no-repeat;
+      margin:0;
+      padding: 0;
+    }
+    main {
+      background: linear-gradient(yellow, black);
+      margin: 5vw;
+      border-radius: 15px;
+    }
+    nav {
+      background-color: yellow;
+    }
+    #Os {
+      color: orange;
+      animation: orioles 1s ease-in-out infinite;
+    }
+    @keyframes orioles {
+      50% {
+        color: black;
+      }
+    }
+    @keyframes danny {
+      50% {
+        rotate: 360deg;
+      }
+    }
+    img {
+      height: min(500px, 50vh);
+      display: block;
+      margin: auto;
+      border-radius: 40px;
+      animation: danny 4s ease-in-out infinite;
+    }
+  </style>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li id="Os">Let's Go O's!</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Danny Baxter!!!</h1>
+      <p>
+        Hi I'm Danny! I'm an amazing husband, father, friend and dude. I love
+        the Orioles, the Maryland flag, and working for your company in the
+        future!!!
+      </p>
+      <img src="images/Danny.jpg" />
+    </main>
+  </body>
+</html>
